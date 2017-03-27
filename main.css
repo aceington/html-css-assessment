@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: url('img/main-bg.jpeg') no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  font-family: 'Baloo Bhaina';
+  background-position: center;
+  position: relative;
+  justify-content: center;
+}
+
+.top-section {
+  width: 100vw;
+  height: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 5%;
+}
+
+.top-section2 {
+  width: 100vw;
+  height: 320px;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+  position: relative;
+  margin-top: 20px;
+}
+.hamburger{
+  background-image: url('img/nav.svg');
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 20px;
+
+}
+.twitter{
+  background-image: url('img/twitter.svg');
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 30%;
+
+
+}
+.fb{
+  background-image: url('img/facebook.svg');
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 22%;
+
+}
+
+.middle-section{
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+.your{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 90px;
+}
+
+.perpor{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 25px;
+}
+
+.bottom-section{
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+  background-image: url('img/down-arrow.svg');
+  height: 75px;
+  width: 75px;
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 25px;
+}
+@media (max-width: 700px) {
+  .top-section2 {
+    display: flex;
+  }
+  .top-section{
+    display: none;
+  }
+}
